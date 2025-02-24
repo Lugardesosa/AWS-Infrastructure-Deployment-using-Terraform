@@ -1,25 +1,3 @@
-terraform {
-    required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.73.0"
-    }
-}
-  
-  required_version = ">= 1.0"
-   backend "s3" {
-     bucket = "your-bucket-name-terraform-state-1a"
-     key    = "terraform/state" 
-     region = "us-east-1" 
-   }
- }
-
-
-# Define provider
-provider "aws" {
-  region = var.aws_region
-}
-
 # Call the networking module
 module "networking" {
   source               = "../modules/networking"
