@@ -10,7 +10,7 @@ This repository contains Terraform configurations to deploy and manage various A
 ---
 
 ## **Technical Architecture**
-![Architectural Diagram](https://github.com/Lugardesosa/DevOps-Project-Sports-API-Management-System-Deployment/blob/main/4th%20Day%20-%20Sports-API-Management-System-Deployment.png)
+![Architectural Diagram](https://github.com/Lugardesosa/AWS-Infrastructure-Deployment-using-Terraform/blob/main/AWS%20Infrastructure%20Deployment%20using%20Terraform.png)
 
 ---
 
