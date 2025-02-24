@@ -53,7 +53,7 @@ The infrastructure is designed to be modular, enabling easy scaling and adaptati
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/Lugardesosa/DevOps-Project-Sports-API-Management-System-Deployment.git
+git clone https://github.com/Lugardesosa/DevOps-Project-Sports-API-Management-System-Deployment.git 
 cd containerized-sports-api
 ```
 ### **Initialize Terraform**
@@ -94,19 +94,21 @@ crash.log
 *.tfvars
 ```
 ---
+
 ## **Modules**
 This project uses a modular approach. Each module is contained in the modules/ directory and can be reused across different environments or configurations. The modules include:
-
-compute: For creating EC2 instances and related resources.
+compute: For creating EC2 instances and related resources. 
 database: For managing RDS instances and related resources.
 networking: For VPC, subnets, internet gateways, and route tables.
+
 ---
 ## **Conclusion**
 In conclusion, the design and deployment of the AWS infrastructure using Terraform has been a successful endeavor. The modular approach to infrastructure as code has allowed for a scalable, secure, and efficient deployment of resources. The use of Terraform has enabled the automation of infrastructure provisioning, reducing the risk of human error and increasing the speed of deployment.
+
 ---
 ## **Future Enhancement**
 - Expanding the infrastructure to include additional resources, such as load balancers and auto-scaling groups
 - Implementing additional security measures, such as encryption and access controls
 - Integrating Terraform with other DevOps tools, such as Jenkins and Docker, to create a comprehensive CI/CD pipeline
----
+
 
