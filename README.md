@@ -53,8 +53,8 @@ The infrastructure is designed to be modular, enabling easy scaling and adaptati
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/Lugardesosa/DevOps-Project-Sports-API-Management-System-Deployment.git 
-cd containerized-sports-api
+git clone https://github.com/Lugardesosa/AWS-Infrastructure-Deployment-using-Terraform.git
+cd AWS-Infrastructure-Deployment-using-Terraform
 ```
 ### **Initialize Terraform**
 Before applying any configuration, initialize Terraform to install the necessary provider plugins:
